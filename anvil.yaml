@@ -85,7 +85,7 @@ db_schema:
       type: link_single
       target: projects
 startup: {type: module, module: StartupModule}
-name: Clone of Task Manager App
+name: progest
 startup_form: null
 correct_dependency_ids: {}
 renamed: true
@@ -96,7 +96,7 @@ runtime_options:
   server_spec: null
   server_spec_disabled: {requirements: '', base: python310-minimal}
 dependencies: []
-metadata: {title: Task Manager App, description: A simple task management app demonstrating the Anvil Material 3 theme.}
+metadata: {title: gestion de projet, description: A simple task management app demonstrating the Anvil Material 3 theme.}
 services:
 - source: /runtime/services/tables.yml
   client_config: {enable_v2: true}
