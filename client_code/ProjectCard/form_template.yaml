@@ -1,0 +1,33 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{}'}
+components:
+- type: ColumnPanel
+  properties: {role: elevated-card, col_widths: '{"XJHXGQ":6}'}
+  name: elevated_card_1
+  layout_properties: {grid_position: 'DKPCOZ,FPHPWT'}
+  components:
+  - type: FlowPanel
+    properties: {role: null, align: justify, spacing_above: small, background: '', foreground: '', spacing_below: small, visible: true, border: '', tooltip: '', spacing: medium}
+    name: flow_panel_1
+    layout_properties: {grid_position: 'NPBNCR,XJHXGQ'}
+    components:
+    - type: Link
+      properties: {role: title, bold: false, align: left, col_widths: '{}', spacing_above: none, background: '', icon: '', wrap_on: mobile, underline: false, font: '', col_spacing: medium, icon_align: left, foreground: '', url: '', spacing_below: none, visible: true, border: '', italic: false, font_size: 16, tooltip: '', text: ''}
+      name: open_project_link
+      layout_properties: {grid_position: 'NPBNCR,ULVOPN', expand: true, width: null}
+      components: []
+      event_bindings: {click: open_project_link_click}
+      data_bindings:
+      - {property: text, code: 'self.item[''project_name'']'}
+    - type: Link
+      properties: {role: null, bold: false, align: right, col_widths: '', spacing_above: medium, background: '', icon: 'fa:comment', wrap_on: mobile, underline: false, font: '', col_spacing: medium, icon_align: left, foreground: '', url: '', spacing_below: none, visible: true, border: '', italic: false, font_size: 16, tooltip: '', text: ''}
+      name: comment_link
+      layout_properties: {grid_position: 'NPBNCR,UGIZZF'}
+      event_bindings: {click: comment_link_click}
+    - type: Link
+      properties: {role: null, bold: false, align: right, col_widths: '', spacing_above: medium, background: '', icon: 'fa:trash', wrap_on: mobile, underline: false, font: '', col_spacing: medium, icon_align: left, foreground: '', url: '', spacing_below: none, visible: true, border: '', italic: false, font_size: 16, tooltip: '', text: ''}
+      name: delete_project_link
+      layout_properties: {grid_position: 'NPBNCR,PVLQRI'}
+      event_bindings: {click: delete_project_link_click}
+is_package: true

@@ -1,0 +1,5 @@
+container:
+  type: DataRowPanel
+  properties: {role: null, bold: false, align: left, spacing_above: none, background: '', underline: false, font: '', auto_display_data: true, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: ''}
+components: []
+is_package: true
