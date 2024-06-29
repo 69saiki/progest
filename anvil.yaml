@@ -96,7 +96,7 @@ runtime_options:
   server_spec: null
   server_spec_disabled: {requirements: '', base: python310-minimal}
 dependencies: []
-metadata: {title: gestion de projet, description: A simple task management app demonstrating the Anvil Material 3 theme.}
+metadata: {title: gestion de projet, description: A simple task management app demonstrating the Anvil Material 3 theme., logo_img: 'asset:IMG_6214.jpeg'}
 services:
 - source: /runtime/services/tables.yml
   client_config: {enable_v2: true}

@@ -18,6 +18,7 @@ unique_ids:
   server_modules:
     ServerModule1: FQ5WXBXJPNKJYTBUFW2OEBQJBGSI5BWC
   assets:
+    IMG_6214.jpeg: '1719650889319885969752350.0725'
     standard-page.html: LBCTKHLMW5EHDWOSJNOCKRXT653VQ7KD
     theme.css: IMECZLPE6PVI2P3YZ4ANI6BFTIALGZ6N
   scripts: {}
