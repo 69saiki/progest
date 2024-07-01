@@ -30,8 +30,8 @@ db_schema:
     client: none
     server: full
     columns:
-    - name: title
-      admin_ui: {width: 200}
+    - name: Titre
+      admin_ui: {order: 0, width: 200}
       type: string
     - name: type
       admin_ui: {width: 200}
